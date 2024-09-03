@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0rem;
+    font-family: system-ui, sans-serif;
+    color: black;
+    background-color: white;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.canvas-element {
+    background-color: black;
+}
+
+.color-picker {
+    display: grid;
+    place-content: center;
+    place-items: center;
+}
+
+.color-picker-selected {
+    position: absolute;
+}
+
+.color-picker-selected-color {
+    display: grid;
+    place-content: center;
+    place-items: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-size: 120px 120px;
+}
+
+.color-picker-selected-code {
+    position: absolute;
+    bottom: 25px;
+    right: 20px;
+    width: 80px;
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 7px;
+}
